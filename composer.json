@@ -1,0 +1,22 @@
+{
+	"name": "alan/try-make-package",
+		"description": "try make a package",
+		"type": "library",
+		"license": "MIT",
+		"authors": [
+		{
+			"name": "Alan Lan",
+			"email": "alan@163.com"
+		}
+		],
+			"minimum-stability": "dev",
+			"require": {
+				"php": ">=7.0"
+			},
+			"autoload": {
+				"psr-4": {
+					"Flower\\Rose\\": "src/Flower/Rose",
+					"Flower\\Lily\\": "src/Flower/Lily"
+				}
+			}
+}
